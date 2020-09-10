@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Digit Image Classification</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+		<h1>Digit Image Classification</h1>
+
+		<div class="centered">
+			
+        <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+            </canvas>
+          </form>
+        <div class="centered">
+			<input type="button" class="myButton" value="Predict">
+		</div>
+
+		<div class="centered">
+			<h1 id="result"></h1>
+		</div>
+	    
+</body>
+</html>
