@@ -11,7 +11,9 @@ from keras.datasets import mnist
 Algorithme utilisé: Kmeans
 
 Automatisation des notifs
+
 https://notify.run/
+
 notify.run permet d'envoyer des notifications à votre propre téléphone ou bureau. 
 
 Application Streamlit
